@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete</title>
+    <link rel="stylesheet" href="/CSS/exercicio04_3.css">
+</head>
+
+<body>
+    <form>
+        <ul>
+            <ul class="cabecalho">
+
+                <li class="cod">Código</li>
+                <li class="descricao">Descrição do produto</li>
+                <li class="preco">Preço</li>
+            </ul>
+            <ul class="prod1">
+                <li class="CODIGO">100</li>
+                <li class="comida">Cachorro Quente</li>
+                <li class="dinheiro1">R$ 3.00</li>
+            </ul>
+            <ul class="prod2">
+                <li class="CODIGO">200</li>
+                <li class="comida">Hambúguer Simples</li>
+                <li class="dinheiro2">R$ 4.00</li>
+            </ul>
+            <ul class="prod3">
+                <li class="CODIGO">300</li>
+                <li class="comida">Cheeseburguer</li>
+                <li class="dinheiro3">R$ 5.50</li>
+            </ul>
+            <ul class="prod4">
+                <li class="CODIGO">400</li>
+                <li class="comida">Bauru</li>
+                <li class="dinheiro4"> R$ 7.50</li>
+            </ul>
+            <ul class="prod5">
+                <li class="CODIGO">500</li>
+                <li class="comida">Refrigerante</li>
+                <li class="dinheiro5">R$ 3.50</li>
+            </ul>
+            <ul class="prod6">
+                <li class="CODIGO">600</li>
+                <li class="comida">Suco</li>
+                <li class="dinheiro6"> R$ 2.80</li>
+            </ul>
+
+        </ul>
+
+        <label for="codigo">Código</label>
+        <input type="number" id="codigo" name="codigo" placeholder="Digite o código">
+        <label for="quantidade">Quantidade</label>
+        <input type="number" id="quantidade" name="quantidade" placeholder="Digite a quantidade">
+
+
+
+        <button type="button" onclick="calcular()"> Calcular</button>
+        <button type="button" onclick="limpar()">Limpar</button>
+
+        <div id="resultado"></div>
+    </form>
+    <script src="/JS/lachonete.js"></script>
+</body>
+
+</html>
