@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pessoas</title>
+</head>
+<body>
+    <h1>Pesuisar filmes dos atores da saga Star Wars!</h1>
+    <section>
+        <input type="number" id="id">
+        <input type="text" id="nomoPessoa" />
+        <textarea name="pessoa" id="pessoa" cols="30" rows="10"></textarea>
+        <button onclick="pessoal()">Inserir Dado</button>
+    </section>
+         <script>
+    
+        </script>
+</body>
+</html>
